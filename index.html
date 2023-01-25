@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sign up Form</title>
+  </head>
+  <body>
+    <div class="image-div">
+      <div class="logo-div"><img src="./logo.png" alt="" /> Alan</div>
+    </div>
+    <form class="body-div">
+      <p class="p-1">
+        This is not a real online service! You Know you need something <br />
+        like this in your life to help you realize your deepest dreams. <br />
+        Sign up <em>now</em> to get started.
+      </p>
+      <p class="p-2">You know you want to.</p>
+      <div class="input-div">
+        <p>Lets do this!</p>
+
+        <fieldset>
+          <div>
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" required />
+          </div>
+          <div>
+            <label for="lname">Last Name</label>
+            <input id="lname" type="text" />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" />
+          </div>
+          <div>
+            <label for="number">Phone Number</label>
+            <input id="number" type="tel" />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div>
+            <label for="password">Password</label>
+            <input id="password" type="password" required />
+          </div>
+          <div>
+            <label for="confirm">Confirm Password</label>
+            <input id="confirm" type="text" required />
+          </div>
+        </fieldset>
+      </div>
+      <button type="submit">Create Account</button>
+      <p>Already have an account?<a href="#">Log in</a></p>
+    </form>
+  </body>
+</html>
